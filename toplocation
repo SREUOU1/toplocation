@@ -1,0 +1,12 @@
+if game.PlaceId == 536102540 then
+
+local Player = game.Players.LocalPlayer
+local plr = game:GetService("Players").LocalPlayer
+local mouse = plr:GetMouse()
+local Live = game:WaitForChild("Workspace").Live
+local lplr = game:GetService("Players").LocalPlayer
+local Char = Live:WaitForChild(game.Players.LocalPlayer.Name)
+
+
+game:GetService("TweenService"):Create(lplr.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Linear), {CFrame = CFrame.new(2499.61, 3944.9, -2028.61)}):Play()
+end
